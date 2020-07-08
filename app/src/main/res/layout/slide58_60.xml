@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@android:color/holo_orange_light"
     android:orientation="vertical">
 
     <Spinner
@@ -13,9 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"/>
 
-    <EditText
+    <TextView
+        android:id="@+id/planet_name"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/planets_spinner"
-        android:textColor="@color/celeste" />
-<RelativeLayout/>
+        android:textColor="@android:color/background_dark"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"/>
+
+</RelativeLayout>
