@@ -23,12 +23,12 @@ public class Slide115_122 extends AppCompatActivity {
         View dialogLayout = inflater.inflate(R.layout.custom_dialog, null);
         final EditText filename = dialogLayout.findViewById(R.id.file_name);
         new AlertDialog.Builder(this)
-                .setTitle("Select your pdf file name")
-                .setMessage("Select your pdf file name. This file will be saved in CameraLiveScannerFiles directory.")
+                .setTitle("Select your postal address")
+                .setMessage("Select your postal address. This address will be toasted.")
                 .setPositiveButton("Set", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(getApplicationContext(), filename.getText().toString(), Toast.LENGTH_SHORT);
+                        Toast.makeText(getApplicationContext(), filename.getText().toString(), Toast.LENGTH_SHORT).show();
                     }
                 })
                 .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {

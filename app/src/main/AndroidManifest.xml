@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity android:name=".Slide17_18">
@@ -22,10 +25,6 @@
         </activity>
 
         <activity android:name=".Slide27_28">
-
-        </activity>
-
-        <activity android:name=".Slide29">
 
         </activity>
 
@@ -93,20 +92,14 @@
 
         </activity>
 
-        <activity android:name=".Slide114">
-
-        </activity>
-
         <activity android:name=".Slide115_122">
 
         </activity>
 
         <activity android:name=".Slide123_128">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
+
     </application>
 
 </manifest>

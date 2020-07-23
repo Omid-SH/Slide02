@@ -9,8 +9,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
-        android:hint="@string/email_address"
-        android:inputType="textAutoComplete" />
+        android:hint="@string/number"
+        android:inputType="number" />
 
     <EditText
         android:layout_width="match_parent"
